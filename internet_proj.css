@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 970px;
+    height: auto;
+    background-color: white;
+    overflow: auto;
+    display: inline-block;
+}
+/*#container img{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+    vertical-align: left;
+    display: inline-block;
+}*/
+#globe{
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: -15px;
+}
+#globe img{
+    max-height: 100px;
+    max-width: 100px;
+    display: inline-block;
+    margin-bottom: -15px;
+}
+#top_banner{
+    color: #494949;
+    display: inline-block;
+    font-size: 60px;
+    vertical-align: top;
+    margin-top: 45px;
+}
+.blue_font{
+    color: #326599;
+}
+#web_banner{
+    width: 970px;
+    height: 35px;
+    background-image: linear-gradient(
+        #3a6b9c,
+        #5c83a9);
+    color: white;
+    padding-top: 18px;
+    display: inline-block;
+    margin-top: -10px;
+    z-index: 5;
+    position: relative;
+}
+.red_font{
+    color: #ca3e32;
+}
+#main_background{
+    background: linear-gradient(#e7e7e7, white 25%, white);
+    display: inline-block;
+}
+#left_content{
+    height: 400px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 100px;
+}
+#left_content h5{
+    margin-top: 15px;
+}
+#left_content p{
+    font-size: 12px;
+    margin-top: 15px;
+}
+#button_video input[type=button]{
+    background-image: linear-gradient(
+        #5c83a9,
+        #3a6b9c);
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px grey;
+    border: 1px solid #3a6b9c;
+}
+#button_more input[type=button]{
+    background-image: linear-gradient(
+        #e2a659,
+        #e17d24);
+    border: 1px solid #e17d24;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    font-size: 14px;
+    box-shadow: 2px 2px grey;
+}
+#button_more{
+    border-bottom: 1px solid grey;
+    width: 180px;
+    height: 50px
+}
+#dojo_ad{
+    height: 300px;
+    width: 150px;
+    color: white;
+    background: url(./images/ad_background.png);
+    background-repeat: no-repeat;
+    padding: 7px;
+    margin-top: 20px;
+    display: inline-block;
+}
+#dojo_ad p{
+    font-size: 20px;
+    text-align: center;
+}
+#dojo_ad img{
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    width: 90px;
+
+}
+#dojo_ad input[type=button]{
+    color: white;
+    width: 140px;
+    height: 30px;
+    border: .5px solid #2a5983;
+    border-radius: 5px;
+    background: #5cc4db;
+    margin-top: 10px;
+    box-shadow: 2px 2px #262729;
+    font-size: 15px;
+}
+#top_content{
+    border-bottom: 1px solid grey;
+    display: inline-block;
+    vertical-align: top;
+    width: 755px;
+    margin-left: -5%;
+    margin-bottom: -40px;
+}
+#dns{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+}
+#dns p{
+    display: inline-block;
+}
+#dns img{
+    height: auto;
+    width: auto;
+    max-height: 20px;
+    max-width: 20px;
+    display: inline-block;
+    vertical-align: left;
+}
+#phone{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 39%;
+    width: auto;
+    text-align: center;
+}
+.number{
+    display: inline-block;
+    text-align: top;
+    font-size: 20px;
+    vertical-align: top;
+    color: #4cbddb;
+    margin-left: 15px;
+}
+#phone p{
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+    margin-left: 15px;
+}
+#phone img{
+    height: auto;
+    width: auto;
+    max-height: 45px;
+    max-width: 45px;
+    display: inline;
+
+}
+.teal_font{
+    color: #449aaf;
+}
+.main_content{
+    display: inline-block;
+    vertical-align: right;
+    width: 600px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-left: 22%;
+    margin-top: -45%;
+}
+.title{
+    color: #34669a;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.main_content ul{
+    list-style-position: outside;
+    padding-left: 40px;
+    font-size: 13px;
+}
+.main_content ol{
+    list-style-position: outside;
+    padding-left: 40px;
+    font-size: 13px;
+}
+.main_content img{
+    /*align-content: center;*/
+    /*width: 100%;*/
+    /*max-height: 300px;
+    max-width: 300px;*/
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: auto;
+    height: 100px;
+    width: 300px;
+}
+.main_content p{
+    font-size: 12px;
+}
+#bottom_content {
+    width: 600px;
+    display: inline-block;
+    border-left: #2c86d9 5px solid;
+    border-top: #2c86d9 5px solid;
+    border-right: #2c86d9 5px solid;
+    box-shadow: 2px 0px grey;
+    vertical-align: bottom;
+    margin-left: 20%;
+}
+#bottom_content img{
+    display: inline;
+    vertical-align: left;
+    vertical-align: top;
+    height: auto;
+    width: auto;
+    max-height: 70px;
+    max-width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#bottom_content p{
+    display: inline-block;
+    font-size: 14.5px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 10px
+
+}
